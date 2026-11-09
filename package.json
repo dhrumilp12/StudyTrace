@@ -1,0 +1,14 @@
+{
+  "name": "studytrace",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Grounded study aids that keep every answer connected to its source.",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "node src/server.mjs",
+    "start": "node src/server.mjs",
+    "test": "node --test",
+    "check": "node --check src/server.mjs && node --check src/engine.mjs && node --check src/ollama.mjs && node --check public/app.js && node --test"
+  }
+}

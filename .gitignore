@@ -1,0 +1,14 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.DS_Store
+coverage/
+*.log
+# Local test results, study exports, captures and video production stay private.
+artifacts/
+*.mp4
+*.mov
+*.wav
+*.zip
+*.tmp
