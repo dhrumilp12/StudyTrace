@@ -101,3 +101,6 @@ See the [demo and video notes](docs/demo.md) for the demonstrated flow and hones
 - `examples/`: original synthetic notes.
 - `scripts/`: optional offline and local-model evaluation helpers.
 - `docs/`: architecture, validation, and demo limitations.
+
+## Attribution 
+OpenAI dot and Codex assisted with implementation, tests, the interface, and documentation.
